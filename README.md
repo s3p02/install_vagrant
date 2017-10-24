@@ -58,3 +58,33 @@ note the machine_name
 ```
 vagrant ssh machine_name
 ```
+
+# Suspend machine
+
+```
+vagrant suspend machine_name
+```
+
+# List all VM'm on host
+
+```
+vagrant global-status
+```
+
+Above information about all known Vagrant environments on this machine. This data is cached and may not be completely up-to-date. To interact with any of the machines, you can go to that directory and run Vagrant, or you can use the ID directly with Vagrant commands from any directory. For example:"vagrant destroy __GLOBAL__ID__"
+
+# Copy file from host to machine
+
+```
+vagrant scp /path/to/file/on/host/ __GLOBAL__ID__:/home/vagrant/
+```
+
+# Permanantly Destroy your VM
+
+Suspend or stop your VM first.
+
+```
+vagrant destroy __GLOBAL__ID__
+```
+
+
