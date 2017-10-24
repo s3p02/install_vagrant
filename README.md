@@ -71,7 +71,7 @@ vagrant suspend machine_name
 vagrant global-status
 ```
 
-Above information about all known Vagrant environments on this machine. This data is cached and may not be completely up-to-date. To interact with any of the machines, you can go to that directory and run Vagrant, or you can use the ID directly with Vagrant commands from any directory. For example:"vagrant destroy __GLOBAL__ID__"
+Above command lists information about all known Vagrant environments on this machine. This data is cached and may not be completely up-to-date. To interact with any of the machines, you can go to that directory and run Vagrant, or you can use the ID directly with Vagrant commands from any directory. For example:"vagrant destroy __GLOBAL__ID__"
 
 # Copy file from host to machine
 
